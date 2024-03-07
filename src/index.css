@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1 {
+  @apply text-2xl;
+}
+
+input {
+  background-color: transparent;
+  width           : 100%;
+}
+
+
+@font-face {
+  font-family: 'Terminus';
+  src        : url('assets/font/TerminusTTF-4.49.3.ttf') format('truetype');
+  font-weight: normal;
+  font-style : normal;
+}
+
+@font-face {
+  font-family: 'Terminus';
+  src        : url('assets/font/TerminusTTF-Bold-4.49.3.ttf') format('truetype');
+  font-weight: bold;
+  font-style : normal;
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
